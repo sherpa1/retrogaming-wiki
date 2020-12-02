@@ -4,15 +4,12 @@ Un projet pour l'apprentissage du développement d'API Rest avec Node.js et Dock
 
 ---
 
-## TP01
+## TP02
 
-Branche git : tp01
+Branche git : tp02
 
-- mise en place d'une architecture basée sur les services avec Docker et Docker Compose,
-- réalisation d'un serveur HTTP avec Node.js,
-- mise en place d'un projet d'API Rest avec Express.js,
-- gestion des routes associées au modèle de données Videogame,
-- utilisation de données statiques
+- ajout d'une middleware pour gérer les erreurs
+- implémentation Hateoas dans les réponses fournies par l'API
 
 ---
 
