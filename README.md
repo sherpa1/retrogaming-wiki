@@ -37,6 +37,16 @@ Exécuter la commande suivante depuis la racine du projet :
 docker-compose up
 ```
 
+### API Rest
+
+#### Curl
+
+https://curl.se/
+
+test de la route GET /videogames
+```
+curl -i http://localhost:4000/videogames
+```
 ---
 
 Alexandre Leroux
