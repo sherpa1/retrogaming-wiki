@@ -6,6 +6,8 @@ _Un projet pour l'apprentissage du développement d'API Rest avec Node.js et Doc
 
 ## TP01
 
+### Contenu
+
 Branche git : tp01
 
 - mise en place d'une architecture basée sur les services avec Docker et Docker Compose,
@@ -15,6 +17,11 @@ Branche git : tp01
 - utilisation de données statiques
 - utilisation de variables d'environnement `./config/env.js` `.env.dev` `.env.prod`
 - routage
+
+### Ressources
+
+#### Routage
+- https://expressjs.com/fr/guide/routing.html
 
 ---
 
