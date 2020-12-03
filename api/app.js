@@ -3,8 +3,7 @@
 const express = require('express');
 const app = express();
 
-const port = process.env.LOCAL_PORT || 3000;
-const host = process.env.HOST || "http://localhost";
+const {local_port,host} = require("./config/env");
 
 //middleware de sécurité : filtre les méthodes HTTP acceptées par le serveur
 const filter_http_methods = require("./middlewares/filter_http_methods");
@@ -25,6 +24,6 @@ app.use(error_404);
 const error_handler = require("./middlewares/error_handler");
 app.use(error_handler);
 
-app.listen(port, async () => {
-    console.log(`Retrograming Wiki API listening at ${host}:${port}`);
+app.listen(local_port, async () => {
+    console.log(`Retrograming Wiki API listening at ${host}:${local_port}`);
 });
