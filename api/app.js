@@ -14,8 +14,12 @@ const videogames_routes = require("./routes/videogames_routes");
 app.use("/videogames",videogames_routes);
 
 app.get('/', async (req, res, next) => {
-    res.status(200).location(req.path).json({ status: 200, message:"Welcome to the Retrogaming API" });
+    res.status(200).location(req.path).json({ message:"Welcome to the Retrogaming API" });
 });
+
+//middleware permettant de traiter les erreurs 404
+const error_404 = require("./middlewares/error_404");
+app.use(error_404);
 
 //middleware permettant de gérer de façon homogène toutes les erreurs retournées par le serveur
 const error_handler = require("./middlewares/error_handler");
