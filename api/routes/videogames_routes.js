@@ -18,7 +18,8 @@ router.get('/', async (req, res, next) => {
             links:[
                 {
                     rel:"self", 
-                    href:base_url
+                    href:base_url,
+                    type:"GET"
                 }
             ],
             data: videogames 
@@ -43,11 +44,13 @@ router.get('/:id', async (req, res, next) => {
             links:[
                 {
                     rel:"self", 
-                    href:`${base_url}/${req.params.id}`
+                    href:`${base_url}/${req.params.id}`,
+                    type:"GET"
                 },
                 {
                     rel:"list", 
-                    href:`${base_url}`
+                    href:`${base_url}`,
+                    type:"GET"
                 }
             ],
         }

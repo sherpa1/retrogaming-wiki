@@ -18,6 +18,11 @@ Branche git : tp02
 
 ### Ressources
 
+### Hateoas
+
+- https://en.wikipedia.org/wiki/HATEOAS
+- https://restfulapi.net/hateoas/
+
 #### Middlewares
 - https://expressjs.com/fr/guide/writing-middleware.html
 - https://expressjs.com/fr/guide/using-middleware.html
