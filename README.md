@@ -1,6 +1,6 @@
 # Retrogaming Wiki
 
-Un projet pour l'apprentissage du développement d'API Rest avec Node.js et Docker
+_Un projet pour l'apprentissage du développement d'API Rest avec Node.js et Docker_
 
 ---
 
@@ -8,8 +8,8 @@ Un projet pour l'apprentissage du développement d'API Rest avec Node.js et Dock
 
 Branche git : tp02
 
-- ajout d'une middleware pour gérer les erreurs
-- implémentation Hateoas dans les réponses fournies par l'API
+- emploi d'un middleware pour gérer les erreurs au format JSON `./api/error.js`
+- implémentation _Hateoas_ dans les réponses JSON fournies par l'API
 
 ---
 
@@ -17,18 +17,19 @@ Branche git : tp02
 
 ### Node.js
 
-#### Installer les dépendances du projet
+_Exécuter la commande suivante depuis la racine du dossier "./api"._
 
-Exécuter la commande suivante depuis la racine du dossier "api"
+#### Installer les dépendances du projet
 
 ```
 npm i
 ```
+
 ### Docker & Docker Compose
 
-#### Démarrer les services Docker
+_Exécuter les commandes Docker depuis la racine du projet._
 
-Exécuter la commande suivante depuis la racine du projet :
+#### Démarrer les services Docker
 
 ```
 docker-compose up
@@ -46,11 +47,11 @@ curl -i http://localhost:4000/videogames
 ```
 ---
 
-Alexandre Leroux
+__Alexandre Leroux__
 
 alex@sherpa.one
 
-Enseignant vacataire à l'Université de Lorraine
+_Enseignant vacataire à l'Université de Lorraine_
 
 - IUT Nancy-Charlemagne (LP Ciasie)
 
