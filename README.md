@@ -8,7 +8,8 @@ _Un projet pour l'apprentissage du développement d'API Rest avec Node.js et Doc
 
 Branche git : tp02
 
-- emploi d'un middleware pour gérer les erreurs au format JSON `./api/error.js`
+- emploi d'un middleware pour filtrer les méthodes HTTPS autorisées 
+- emploi d'un middleware pour gérer les erreurs au format JSON `./api/middlewares/error.js`
 - implémentation _Hateoas_ dans les réponses JSON fournies par l'API
 
 ---
