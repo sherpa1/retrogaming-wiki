@@ -6,9 +6,6 @@ const { dist_port, local_port, host } = require("../config/env");
 
 const videogames = require("../data/videogames");//Video Games Static Data
 
-
-const base_url = `${host}:${dist_port}/videogames`;
-
 router.get('/:id', async (req, res, next) => {
 
     if (!req.params.id || req.params.id == undefined || req.params.id == 0) return res.status(401).location(req.path).json({ message: "Missing videogame id" });
