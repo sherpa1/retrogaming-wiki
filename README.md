@@ -13,7 +13,7 @@ Branche git : tp01
 - mise en place d'une architecture basée sur les services avec Docker et Docker Compose,
 - réalisation d'un serveur HTTP avec Node.js,
 - mise en place d'un projet d'API Rest avec Express.js,
-- gestion des routes associées au modèle de données _Videogame_,
+- gestion des routes GET associées au modèle de données _Videogame_,
 - utilisation de données statiques
 - utilisation de variables d'environnement `./config/env.js` `.env.dev` `.env.prod`
 - routage
@@ -22,6 +22,12 @@ Branche git : tp01
 
 #### Routage
 - https://expressjs.com/fr/guide/routing.html
+
+#### POO ES6+
+- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes
+
+#### Méthode find de l'objet Array
+- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array/find
 
 ---
 
