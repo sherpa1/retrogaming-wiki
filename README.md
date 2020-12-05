@@ -20,6 +20,16 @@ Branche git : tp01
 
 ### Ressources
 
+#### Postman
+https://www.postman.com/
+
+#### Curl
+https://curl.se/
+
+#### Statuts HTTP
+
+- https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP
+
 #### Routage
 - https://expressjs.com/fr/guide/routing.html
 
